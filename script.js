@@ -11,7 +11,7 @@ dice.addEventListener("click", function(){
     showQuote();
 });
 
-// showQuote function to show random quote from API
+// Fetching random quotes from API
 function showQuote(){
     fetch("https://api.adviceslip.com/advice")
     .then(response => response.json())
